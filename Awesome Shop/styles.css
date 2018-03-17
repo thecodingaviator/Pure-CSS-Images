@@ -1,0 +1,161 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  flex-wrap: wrap;
+}
+
+/* Awesome shop starts https://dribbble.com/shots/4120267-Shop */
+.img-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.img-1 .container-2 {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  z-index: 2;
+}
+.img-1 .base-line {
+  height: 1px;
+  width: 500px;
+  background: black;
+  top: 440px;
+  left: 160px;
+  position: absolute;
+  z-index: 3;
+}
+.img-1 .shop {
+  position: absolute;
+  display: inline-block;
+  left: 215px;
+  top: 230px;
+  width: 390px;
+  height: 210px;
+  background-color: #ffd1d1;
+  border: 1px solid black;
+  border-bottom: 0;
+  z-index: 3;
+}
+.img-1 .shop-top {
+  width: 410px;
+  height: 20px;
+  background-color: #f5abab;
+  display: inline-block;
+  border-radius: 4px;
+  position: absolute;
+  top: 209px;
+  left: 205px;
+  border: 1px solid black;
+  z-index: 3;
+}
+.img-1 .shop-top-shadow {
+  position: absolute;
+  top: 231px;
+  left: 216px;
+  background: #deb6b6;
+  height: 6px;
+  width: 390px;
+  z-index: 4;
+}
+.img-1 .door {
+  position: absolute;
+  top: 309px;
+  left: 370px;
+  height: 130px;
+  width: 80px;
+  background: #f0faff;
+  border-radius: 1px;
+  z-index: 4;
+  border: 1px solid black;
+  display: inline-block;
+}
+.img-1 .door-handle {
+  position: absolute;
+  top: 48px;
+  left: 64px;
+  height: 36px;
+  width: 1px;
+  background: black;
+  border-radius: 1px;
+  z-index: 5;
+}
+.img-1 .window {
+  position: absolute;
+  top: 309px;
+  height: 85px;
+  width: 90px;
+  background: #f0faff;
+  border-radius: 1px;
+  z-index: 5;
+  border: 1px solid black;
+  display: inline-block;
+}
+.img-1 .window-1 {
+  left: 250px;
+}
+.img-1 .window-2 {
+  left: 485px;
+}
+.img-1 .window-shadow {
+  position: absolute;
+  width: 110px;
+  height: 10px;
+  background: #ffa4a4;
+  z-index: 6;
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 4px;
+  top: 395px;
+}
+.img-1 .shadow-1 {
+  left: 239px;
+}
+.img-1 .shadow-2 {
+  left: 474px;
+}
+.img-1 .shop-raise {
+  width: 100px;
+  height: 16px;
+  background: #fffef7;
+  position: absolute;
+  border: 1px solid black;
+  display: inline-block;
+  top: 192px;
+  left: 358px;
+}
+.img-1 .shop-raise-top {
+  position: absolute;
+  height: 40px;
+  width: 140px;
+  top: 151px;
+  left: 339px;
+  background: #ffd1d1;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: inline-block;
+}
+.img-1 .window-handle {
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  top: 326px;
+  background: black;
+  z-index: 8;
+}
+.img-1 .handle-1 {
+  left: 265px;
+}
+.img-1 .handle-2 {
+  left: 501px;
+}
+
+@media only screen and (max-width: 660px) {
+  body {
+    transform: scale(0.7);
+  }
+}
