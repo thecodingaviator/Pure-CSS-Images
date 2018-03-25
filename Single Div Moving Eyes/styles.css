@@ -1,0 +1,59 @@
+.eyes {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 225px 0px 0 0 currentColor;
+  z-index: 1;
+}
+
+.eyes:before {
+  content: "";
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 225px 0px 0 0 white;
+  z-index: 2;
+  top: 15px;
+  left: 15px;
+}
+
+.eyes:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 225px 0px 0 0 currentColor;
+  z-index: 3;
+  top: 95px;
+  left: 95px;
+  animation: 5s move-eyes infinite;
+}
+
+@keyframes move-eyes {
+  0% {
+    -ms-transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  }
+  50% {
+    -ms-transform: translate(20px, 20px);
+    -webkit-transform: translate(20px, 20px);
+    transform: translate(20px, 20px);
+  }
+  75% {
+    -ms-transform: translate(-50px, 20px);
+    -webkit-transform: translate(-50px, 20px);
+    transform: translate(-50px, 20px);
+  }
+  100% {
+    -ms-transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  }
+}
